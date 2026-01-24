@@ -1,6 +1,6 @@
 import "./App.css";
 import { Header } from "./components/sections/Header.jsx";
-import { Form } from "./components/sections/Form.jsx";
+import { Process } from "./components/sections/Process.jsx";
 import { Spotlight } from "./components/ui/Spotlight.jsx";
 
 function App() {
@@ -14,7 +14,7 @@ function App() {
         fill="white"
       />
         <Header />
-        <Form />
+        <Process />
       </main>
     </>
   );
