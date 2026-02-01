@@ -1,16 +1,51 @@
-# React + Vite
+<img width="1919" height="909" alt="image" src="https://github.com/user-attachments/assets/77e50073-13cc-430e-95e9-0e6098667e5a" />
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Shortest Job First (SJF) Scheduling Simulator
 
-Currently, two official plugins are available:
+A web-based simulator that demonstrates how the Shortest Job First (SJF) CPU scheduling algorithm works through an interactive and visual interface.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## ✅ What it does
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Simulates the Shortest Job First (SJF) scheduling algorithm
+- Accepts multiple processes with burst times
+- Automatically calculates execution order
+- Displays scheduling results clearly for easier understanding
+- Helps students visualize how SJF works in operating systems
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 💡 Why we built it
+
+This project was built as part of an academic group project to better understand CPU scheduling algorithms, specifically Shortest Job First.
+
+As the team leader, I handled most of the development work, focusing on:
+- Translating the SJF logic into an interactive web app
+- Making the simulator easy to use and visually clear
+- Applying modern frontend tools to an OS-related concept
+
+---
+
+## 🛠 Tech used
+
+<div align="left">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="40" alt="react logo"  />
+  <img width="12" />
+  <img src="https://cdn.simpleicons.org/tailwindcss/06B6D4" height="40" alt="tailwindcss logo"  />
+  <img width="12" />
+</div>
+
+---
+
+## 🧩 Challenges solved
+
+- Translating the SJF algorithm into clear frontend logic
+- Handling dynamic user inputs without breaking calculations
+- Keeping the UI simple while still informative
+- Ensuring correct execution order and results
+- Making the simulator responsive and user-friendly
+
+---
+
+<a href="https://sjf-scheduling-simulator.vercel.app/" target="_blank"> <img src="https://img.shields.io/static/v1?message=Live%20Demo&logo=vercel&label=&color=000000&logoColor=white&labelColor=&style=for-the-badge" height="40" alt="live demo logo" /> </a>
