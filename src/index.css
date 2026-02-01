@@ -35,3 +35,62 @@ body {
   opacity: 1;
   transform: translateY(0);
 }
+
+/* 
+ const gantt = useMemo(() => {
+    if (!processes || processes.length === 0) return [];
+
+    // ✅ COPY props, convert to numbers (do NOT mutate props)
+    const procs = processes.map((p) => ({
+      pid: p.name,
+      at: Number(p.arrivalTime),
+      bt: Number(p.burstTime),
+      done: false,
+    }));
+
+    // optional: remove empty names / invalid numbers
+    const valid = procs.filter(
+      (p) =>
+        p.pid && !Number.isNaN(p.at) && !Number.isNaN(p.bt) && p.bt >= 0 && p.at >= 0
+    );
+    if (valid.length === 0) return [];
+
+    let time = 0;
+    let finished = 0;
+    const ganttResult = [];
+
+    while (finished < valid.length) {
+      // Ready Queue = arrived and not done
+      const ready = valid.filter((p) => p.at <= time && !p.done);
+
+      // If no ready → IDLE until next arrival
+      if (ready.length === 0) {
+        const nextArrival = Math.min(...valid.filter((p) => !p.done).map((p) => p.at));
+
+        // if time is already behind nextArrival, jump
+        if (nextArrival > time) {
+          ganttResult.push({ pid: "IDLE", start: time, end: nextArrival });
+          time = nextArrival;
+        } else {
+          // safety fallback
+          time += 1;
+        }
+        continue;
+      }
+
+      // Choose shortest burst time among ready
+      ready.sort((a, b) => a.bt - b.bt);
+      const current = ready[0];
+
+      const start = time;
+      const end = time + current.bt;
+
+      ganttResult.push({ pid: current.pid, start, end });
+
+      current.done = true;
+      time = end;
+      finished++;
+    }
+
+    return ganttResult;
+  }, [processes]); */
