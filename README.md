@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-=======
+
 <img width="1919" height="909" alt="image" src="https://github.com/user-attachments/assets/77e50073-13cc-430e-95e9-0e6098667e5a" />
 
 # Shortest Job First (SJF) Scheduling Simulator
