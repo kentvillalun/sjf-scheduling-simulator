@@ -50,4 +50,3 @@ As the team leader, I handled most of the development work, focusing on:
 ---
 
 <a href="https://sjf-scheduling-simulator.vercel.app/" target="_blank"> <img src="https://img.shields.io/static/v1?message=Live%20Demo&logo=vercel&label=&color=000000&logoColor=white&labelColor=&style=for-the-badge" height="40" alt="live demo logo" /> </a>
->>>>>>> 7e9c0dc3c53b6862094a8ace021298de92964b82
