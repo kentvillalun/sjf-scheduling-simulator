@@ -219,7 +219,7 @@ export const Outputs = ({ processes, processCount }) => {
 
                   <div className="">=</div>
                   <div className="font-medium text-lg underline">
-                    {throughput} ms
+                    {throughput.toFixed(2)} ms
                   </div>
                 </div>
               </div>
@@ -274,7 +274,7 @@ export const Outputs = ({ processes, processCount }) => {
                     </div>
                     <div className="">=</div>
                     <div className="font-medium text-lg underline">
-                        {atat} ms
+                        {atat.toFixed(2)} ms
                     </div>
                   </div>
 
@@ -332,7 +332,7 @@ export const Outputs = ({ processes, processCount }) => {
                     </div>
                     <div className="">=</div>
                     <div className="font-medium text-lg underline">
-                        {awt} ms
+                        {awt.toFixed(2)} ms
                     </div>
                   </div>
 
