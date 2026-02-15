@@ -137,8 +137,7 @@ export const Outputs = ({ processes, processCount }) => {
   const atat = n > 0 ? totalTAT / n : 0;
   const awt = n > 0 ? totalWT / n : 0;
 
-  return (
-    <section className="bg-white/8 rounded-lg border-white/5 border p-8">
+  return (    <section className="bg-white/8 rounded-lg border-white/5 border p-8">
       <div className="flex flex-col gap-7">
         {/* Displaying Gantt Chart */}
         <div className="flex flex-col gap-4 ">
@@ -146,7 +145,7 @@ export const Outputs = ({ processes, processCount }) => {
           <div className="grid grid-cols-3 md:grid-cols-5 gap-2 overflow-x-auto italic">
             {gantt.map((g, i) => (
               <div
-                className="flex flex-col bg-black/20 border-white/10 border rounded-lg px-7 py-3 text-center"
+                className="flex flex-col bg-black/20 border-white/10 border rounded-lg px-3 py-3 text-center"
                 key={`${g.pid}-${g.start}-${i}`}
               >
                 <p className="font-semibold text-xl">{g.pid}</p>
