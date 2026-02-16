@@ -40,7 +40,7 @@ export const Outputs = ({ processes, processCount }) => {
       (p) => p.arrivalTime <= time && p.remainingTime > 0,
     );
 
-    // Save teh ready queue
+    // Save the ready queue
     readyQueueLogs.push({
       time,
       queue: readyQueue.map((p) => ({

@@ -3,6 +3,8 @@ import { Outputs } from "../components/sections/Outputs.jsx";
 import { RevealOnScroll } from "./RevealOnScroll.jsx";
 
 export const Form = ({ processCount }) => {
+  // The solution section was hidden until the user clicks the process button
+  // It will only show when the qeue is being process
   const [isSolution, setIsSolution] = useState(false);
 
   // Handles the value or process table
